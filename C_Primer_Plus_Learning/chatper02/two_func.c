@@ -9,7 +9,7 @@ int main(void)
     printf("Yes. Bring me some tea and writeable DVDs.\n");
     return 0;
 }
-// 函数定义开始
+// 函数定义开始hh
 void butler(void)
 {
     printf("You rang, sir?\n");
