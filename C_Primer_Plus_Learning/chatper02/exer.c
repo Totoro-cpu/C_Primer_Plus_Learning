@@ -1,7 +1,8 @@
 #include <stdio.h>
+void function_1();
 int main(void)
 {
-
+    function_1();
     return 0;
 }
 // 打印函数
@@ -12,11 +13,11 @@ void function_1()
     printf("first name is zhengkang,");
     printf("family name is pu\n");
     // 打印我的姓名和地址
-    printf("my name is puzhengkang,address is Henan!");
-    printf("%d", 24 * 365);
+    printf("my name is puzhengkang,address is Henan!\n");
+    printf("%d\n", 24 * 365);
     for (int i = 0; i < 3; i++)
     {
-        printf("For he's a jolly good fellow!");
+        printf("For he's a jolly good fellow!\n");
     }
-    printf("Which nobody can deny!"); 
+    printf("Which nobody can deny!\n"); 
 }
