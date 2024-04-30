@@ -1,11 +1,12 @@
-//fathm_ft.c--æŠŠ2è‹±å¯»è½¬æ¢æˆè‹±å°º
+
 #include <stdio.h>
+
 int main(void)
 {
-    int feet, fathoms;
+    int feet, fathoms;  // ÉùÃ÷ÕûĞÍ±äÁ¿feetºÍfathoms
 
-    fathoms = 2;
-    feet = 6 * fathoms;
-    printf("There are %d feet in %d fathoms!\n", feet, fathoms);
-    printf("Yes,I said %d feet!\n", 6 * fathoms);
+    fathoms = 2;  // ½«fathoms¸³ÖµÎª2
+    feet = 6 * fathoms;  // ¼ÆËãfeetµÄÖµÎª6³ËÒÔfathoms
+    printf("There are %d feet in %d fathoms!\n", feet, fathoms);  // ´òÓ¡½á¹û£¬ÏÔÊ¾feetºÍfathomsµÄÖµ
+    printf("Yes,I said %d feet!\n", 6 * fathoms);  // ´òÓ¡½á¹û£¬ÏÔÊ¾6³ËÒÔfathomsµÄÖµ
 }

@@ -1,9 +1,9 @@
 #include <stdio.h>
-int main() /*一个简单的C程序*/
+int main() 
 {
-    int num;                  /*定义一个名为num的变量*/
-    num = 1;                  /*为num赋值*/
-    printf("I am a simple "); /*使用printf()函数*/
+    int num;                  
+    num = 1;                  
+    printf("I am a simple "); 
     printf("computer.\n");
     printf("My favorite number is %d because it is first.\n", num);
     return 0;
