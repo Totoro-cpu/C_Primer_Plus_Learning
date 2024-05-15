@@ -5,8 +5,8 @@
 
 int main() {
     int area;
-    area = LENGTH * WIDTH;        // 计算面积
-    printf("The area of the rectangle is %d", area);
-    printf("%c",NEWLINE);//换行
+    area = LENGTH * WIDTH;
+    printf("这个矩形的面积是: %d", area);
+    printf("%c",NEWLINE);
     return 0;
 }
