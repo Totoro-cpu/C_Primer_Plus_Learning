@@ -20,3 +20,4 @@ void three_operator()
     int b = 20;
     int c = (a > b) ? printf("a > b\n") : printf("a <= b\n");
 }
+
