@@ -13,5 +13,6 @@ int main()
         printf("a[%d]的地址值和存储值为：", i);
         printf("(%p,%d)\n", ptr, *(ptr));
         ptr++;
-        return 0;
     }
+    return 0;
+}
