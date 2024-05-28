@@ -16,4 +16,5 @@ int main()
         printf("地址为%p ", ptr[i]);
         printf("的值为%d \n", *ptr[i]);
     }
+    return 0;
 }
