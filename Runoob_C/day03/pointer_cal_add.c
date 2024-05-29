@@ -1,7 +1,8 @@
 #include <stdio.h>
 #define MAX_SIZE 3 // 定义数组的最大容量
 int main()
-{ // 定义数组
+{ 
+    // 定义数组
     int a[MAX_SIZE] = {1, 2, 3};
     // 定义指针
     int *ptr;
