@@ -10,7 +10,7 @@ union Data
 
 int main()
 {
-    //同一时间使用一个成员
+    //同一时间使用同一个成员
     union Data data;
 
     data.i = 10;
