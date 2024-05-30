@@ -11,6 +11,7 @@ union Data
 int main()
 {
     union Data data;
+    //同一时间使用同一个成员变量
 
     data.i = 10;
     data.f = 220.5;
