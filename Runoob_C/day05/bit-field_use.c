@@ -13,7 +13,7 @@ struct
 } num2;
 int main()
 {
-    //打印两个结构所占的内存大小
+    //打印结构大小
     printf("the size of num1 is %d\n", sizeof(num1));
     printf("the size of num2 is %d\n", sizeof(num2));
     return 0;
