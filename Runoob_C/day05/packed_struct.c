@@ -3,12 +3,12 @@
 // 位域是一种特殊的数据类型，它允许我们将一个字节中的某些位组合成一个整型变量，从而节省空间。
 struct packed_struct
 {
-    unsigned x1 : 1;
-    unsigned x2 : 1;
-    unsigned x3 : 1;
-    unsigned x4 : 1;
-    unsigned type : 4;
-    unsigned my_int : 9;
+    unsigned int x1 : 1;
+    unsigned int x2 : 1;
+    unsigned int x3 : 1;
+    unsigned int x4 : 1;
+    unsigned int type : 4;
+    unsigned int my_int : 9;
 };
 int main()
 {
