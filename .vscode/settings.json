@@ -1,7 +1,8 @@
 {
     "files.associations": {
         "stdlib.h": "c",
-        "stdio.h": "c"
+        "stdio.h": "c",
+        "string.h": "c"
     },
     "better-comments.highlightPlainText": true,
     "better-comments.tags": [
