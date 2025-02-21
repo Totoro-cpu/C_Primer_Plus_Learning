@@ -2,7 +2,8 @@
     "files.associations": {
         "stdlib.h": "c",
         "stdio.h": "c",
-        "string.h": "c"
+        "string.h": "c",
+        "memory_manager": "cpp"
     },
     "better-comments.highlightPlainText": true,
     "better-comments.tags": [
