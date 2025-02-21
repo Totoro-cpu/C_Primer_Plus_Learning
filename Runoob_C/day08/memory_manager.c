@@ -4,7 +4,7 @@
 int main()
 {
     int *pointer;
-    int num[MAX]={1,2,3,4,5,6,7,8,9,10};
+    int num[MAX] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
     pointer = (int *)malloc(100 * sizeof(int));
     if (pointer == NULL)
     {
@@ -20,5 +20,5 @@ int main()
         pointer[i] = num[i];
         printf("pointer[%d] = %d\n", i, pointer[i]);
     }
-    
+    free(pointer);
 }
